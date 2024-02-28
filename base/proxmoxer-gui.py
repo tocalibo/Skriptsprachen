@@ -13,6 +13,10 @@ def show_error(exception):
     sg.Popup(f'An error occurred. \nError: {exception}', title='Error')
 
 # Auslesen von Daten
+def get_login_credentials():
+    #TODO: Implementierung der Funktion, Daten sollen aus Konfigurationsdatei gelesen werden
+    pass
+
 def get_container_information():
     global lxc_inventory 
     lxc_inventory = {}      # Hinzugefügte oder gelöschte Einträge werden so mitbretrachtet
