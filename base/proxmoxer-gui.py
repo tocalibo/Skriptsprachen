@@ -5,9 +5,6 @@ from proxmoxer import ProxmoxAPI
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)     # Unterdrückt Warnung für nicht überprüftes HTTPS-Zertifikat
 sg.theme('DarkGrey14')
 
-#lxc_inventory = {} 
-#vm_inventory = {} 
-
 # Behandlung im Fenster
 def show_error(exception):
     sg.Popup(f'An error occurred. \nError: {exception}', title='Error')
