@@ -17,16 +17,18 @@ Install the required packages using:
 
 ```bash
 pip install PySimpleGUI proxmoxer urllib3
+```
 
-Usage
+## Usage
 
-    Run the program and enter the connection details for the Proxmox server.
-    Upon successful connection, the status of all LXCs and VMs will be displayed.
-    Use the buttons to refresh the status or perform administrative tasks like starting, shutting down, or stopping.
+- Run the program and enter the connection details for the Proxmox server.
+- Upon successful connection, the status of all LXCs and VMs will be displayed.
+- Use the buttons to refresh the status or perform administrative tasks like starting, shutting down, or stopping.
 
-Project Information
+## Project Information
 
 This program was developed as an exam project for the "Skriptsprachen" module at the University of Applied Sciences Südwestfalen.
-Warnings
+
+## Warnings
 
 The program disables the verification of the Proxmox server's HTTPS certificate (using urllib3.disable_warnings). This is insecure and should not be used in a production environment. For production use, install a valid certificate and enable certificate verification.
